@@ -2,6 +2,6 @@ FROM openjdk:8-jdk-alpine
 
 WORKDIR /app
 
-FROM . .
+COPY . .
 
 CMD ["/bin/sh", "-c"]
